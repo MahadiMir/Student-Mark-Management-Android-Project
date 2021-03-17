@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest  package="com.example.mahadi.studentmanagement"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk
+              android:targetSdkVersion="17"
+              android:minSdkVersion="8"/>
+
+
+    <application android:theme="@style/AppTheme"
+                 android:label="Student Mark Management By Mahadi Mir"
+                 android:icon="@drawable/m"
+                 android:allowBackup="true">
+
+
+    <activity
+        android:label="Stu.Mark.Manage By Mahadi Mir"
+
+        android:name=".MainActivity">
+
+
+    <intent-filter>
+
+    <action android:name="android.intent.action.MAIN"/>
+
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+</application>
+
+</manifest>
